@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acbbfaed2c4245a0a85c155bc77f9faf, type: 3}
+  m_Name: BonusLevel 2
+  m_EditorClassIdentifier: 
+  name: BonusLevel2
+  location: {fileID: 8736611780285472585, guid: 038bac1fa43029a4bab81db81c7c6085,
+    type: 3}
+  colorSchemes:
+  - {fileID: 11400000, guid: 6fb6f125990fc1f4b88d2d070d591056, type: 2}
+  rotations:
+  - 0

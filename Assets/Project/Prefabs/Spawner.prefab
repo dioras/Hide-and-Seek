@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7612180318746821858
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7612180318746821856}
+  - component: {fileID: 7612180318746821857}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7612180318746821856
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612180318746821858}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7612180318746821857
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7612180318746821858}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 26ade42514c34107bed6cfa14dcad4cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterPrefab: {fileID: 5261106385490615028, guid: ea992697276f09e4d8151ee04e59f354,
+    type: 3}
+  cameraControllerPrefab: {fileID: 378146397145385232, guid: c67f3d4f9e8217f468612d39c095a2dd,
+    type: 3}
+  gameModePrefab: {fileID: 3725225035637713268, guid: 38301968be8e39a4f9f37e7155249414,
+    type: 3}
+  bonusLevelGameModePrefab: {fileID: 6060717360652185724, guid: af8941e1a74579346b7f1ce151f845ab,
+    type: 3}
+  nicknamesFile: {fileID: 4900000, guid: d68f969f3a4cf3d4ab7c5c640e555d8a, type: 3}
+  meshNicknamePrefab: {fileID: 6350724490247204102, guid: a9316119a8938d34aa78479663979ec6,
+    type: 3}
+  activePerkPickupPrefabs:
+  - {fileID: 7741477118765160613, guid: bf78331cb09287341b3be454ce7de6b2, type: 3}
+  - {fileID: 1506409969879132380, guid: e2d5f4faefb69844dbd1d3a4873b9111, type: 3}
+  - {fileID: 8723116376288967682, guid: 55125d5a34856714999ac8926cba37a1, type: 3}
+  moveSpeedOnFirstLevels: 2
+  BonusLevelNum: 5

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c1ce0b06384a4a9eea0a3300e73a15, type: 3}
+  m_Name: LightGreen_Orange
+  m_EditorClassIdentifier: 
+  FloorMaterials:
+  - {fileID: 2100000, guid: fae62eae69666704789c7a8248c6488c, type: 2}
+  WallMaterials:
+  - {fileID: 2100000, guid: f107539c7fd8dc549b51421676026e69, type: 2}
+  - {fileID: 2100000, guid: 1160011f77f2f384d940c30b3e199ae5, type: 2}
+  BridgeMaterials:
+  - {fileID: 2100000, guid: 1160011f77f2f384d940c30b3e199ae5, type: 2}
+  - {fileID: 2100000, guid: 434c399dc5a97a64d95e0184b4adb092, type: 2}
+  BackgroundMaterials:
+  - {fileID: 2100000, guid: 3128432c4fffb244dbad0fcf98bd254c, type: 2}
+  - {fileID: 2100000, guid: 7a51ca8abea9dcf44a0006b54b6ef266, type: 2}
+  - {fileID: 2100000, guid: fbf75f74f66cbc843bff6f103979f64b, type: 2}

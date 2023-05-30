@@ -1,0 +1,14 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: SeekerAC
+  m_Controller: {fileID: 9100000, guid: c05d5aeaa61ca1d419c97d1365d8c767, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 428dd61906a276b4fa9ec94842b11157, type: 3}
+    m_OverrideClip: {fileID: -203655887218126122, guid: 7d7597f3518b284409d80ea6bb4efcd5,
+      type: 3}

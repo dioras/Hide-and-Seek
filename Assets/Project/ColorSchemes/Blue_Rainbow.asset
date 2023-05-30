@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 11c1ce0b06384a4a9eea0a3300e73a15, type: 3}
+  m_Name: Blue_Rainbow
+  m_EditorClassIdentifier: 
+  FloorMaterials:
+  - {fileID: 2100000, guid: 775accba890339244b8c3e3d4f88df70, type: 2}
+  WallMaterials:
+  - {fileID: 2100000, guid: 095df72f7093f9e48998257920d42878, type: 2}
+  BridgeMaterials:
+  - {fileID: 2100000, guid: 01697473fde2be0479b5298e10946b45, type: 2}
+  - {fileID: 2100000, guid: 72129014fcd46ce4a88ddac987bd1b84, type: 2}
+  BackgroundMaterials:
+  - {fileID: 2100000, guid: 3a5b27870665c9647828c675f3a11963, type: 2}
+  - {fileID: 2100000, guid: 2631e8a5950cd4a4ab35c9d73f276441, type: 2}

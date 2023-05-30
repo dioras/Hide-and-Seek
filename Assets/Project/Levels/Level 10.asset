@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: acbbfaed2c4245a0a85c155bc77f9faf, type: 3}
+  m_Name: Level 10
+  m_EditorClassIdentifier: 
+  name: Level10
+  location: {fileID: 6378895308232380972, guid: 9ea68af4af33eb340bc9c7e7aa44dc12,
+    type: 3}
+  colorSchemes:
+  - {fileID: 11400000, guid: c1d4625fa1aceac4696830247e56aee2, type: 2}
+  - {fileID: 11400000, guid: 1d7776f72e454f945a19ec19bdb2ccd4, type: 2}
+  - {fileID: 11400000, guid: bb21d365f785b3945b01284deeca245c, type: 2}
+  - {fileID: 11400000, guid: 214894affbbb3864fb0290895f8f4e6a, type: 2}
+  - {fileID: 11400000, guid: 091b148ae92a6aa4da6c3d3d02990393, type: 2}
+  rotations:
+  - 180

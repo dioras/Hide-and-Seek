@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3363060833975019620
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5963263262821189073}
+  - component: {fileID: 3725225035637713268}
+  m_Layer: 0
+  m_Name: HideAndSeekMode
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5963263262821189073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363060833975019620}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3725225035637713268
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3363060833975019620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 46160f0ac2e543bd9f26db4b277f12fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  <PlayersCount>k__BackingField: 6
+  <MatchTime>k__BackingField: 30
+  canvasPrefab: {fileID: 5420379946860470518, guid: 56d2b3fae29fd3f4c9dde4b07c81dc93,
+    type: 3}
+  <TimeForHide>k__BackingField: 3.1
+  <CaughtHidersCountForWin>k__BackingField: 4
+  seekerAC: {fileID: 22100000, guid: e25888d544091af4eae76e310ce9077b, type: 2}
+  hiderAC: {fileID: 22100000, guid: f1ab776a41107094ea4d077c051cd697, type: 2}
