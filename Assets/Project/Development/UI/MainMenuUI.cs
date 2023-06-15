@@ -41,7 +41,7 @@ namespace Project.Development.UI
 		[SerializeField] private GameObject leftButtonsPanel;
 		[SerializeField] private TextMeshProUGUI bonusLevelCoinsText;
         [SerializeField] private GameObject matchResultsShadePanel;
-        [SerializeField] private BattlePassUI battlePassUi;
+        //[SerializeField] private BattlePassUI battlePassUi;
 	
 		private HideAndSeekGameMode hideAndSeekGameMode;
 
@@ -513,14 +513,14 @@ namespace Project.Development.UI
             
             SetActive(true);
             
-            if (this.win)
-            {
-	            this.battlePassUi.Open();
-            }
-            else
-            {
-	            this.battlePassUi.Hide();
-            }
+            // if (this.win)
+            // {
+	           //  this.battlePassUi.Open();
+            // }
+            // else
+            // {
+	           //  this.battlePassUi.Hide();
+            // }
 		}
 
 		private IEnumerator SetCoinsWithDelay()
@@ -609,17 +609,17 @@ namespace Project.Development.UI
             this.matchResultsShadePanel.SetActive(true);
             SetActive(true);
 
-            if (gameMode is HideAndSeekGameMode)
-            {
-	            if (result == Result.Win)
-	            {
-		            this.battlePassUi.Open();
-	            }
-	            else
-	            {
-		            this.battlePassUi.Hide();
-	            }
-            }
+            // if (gameMode is HideAndSeekGameMode)
+            // {
+	           //  if (result == Result.Win)
+	           //  {
+		          //   this.battlePassUi.Open();
+	           //  }
+	           //  else
+	           //  {
+		          //   this.battlePassUi.Hide();
+	           //  }
+            // }
 		}
 		
 		private void OnLevelChanged(Level newLevel, int levelNum, bool bonusLevel)
@@ -701,7 +701,7 @@ namespace Project.Development.UI
 				this.winCount = 0;
 			}
 
-			this.battlePassUi.Hide();
+			//this.battlePassUi.Hide();
 			
 			this.firstLevel = levelNum == 1;
 		
